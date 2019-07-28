@@ -188,6 +188,10 @@ If use same bibliography in multiple files, creates warning in Lyx
 Source
 \end_layout
 
+\begin_layout Plain Layout
+Check https://github.com/MatthieuStigler/ucdavisthesislyx
+\end_layout
+
 \end_inset
 
 
