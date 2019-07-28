@@ -1,0 +1,310 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass ucdavisthesis
+\begin_preamble
+%% Custom hyphen-ation
+\hyphenation{hetero-geneity}
+
+% I used this package to check margins
+%\usepackage{showframe}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 0
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Subsection
+Lyx installation/usage
+\end_layout
+
+\begin_layout Itemize
+Installation:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+put the 
+\emph on
+ucdavisthesis.layout
+\emph default
+ in your local lyx 
+\emph on
+layouts
+\emph default
+ folder (Linux: is in home folder ~/.lyx)
+\end_layout
+
+\begin_layout Itemize
+Tools: Reconfigure, then quit, reopen
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Usage: Documents-> Settings -> Document Class: you should see now ucdavisthesis
+ in the document classes
+\end_layout
+
+\begin_layout Subsection
+Implementation notes
+\end_layout
+
+\begin_layout Itemize
+The 
+\backslash
+authordegrees{} was intended for adding your degree on main page.
+ I was told by Graduate Studies (2019) this should not be put on that page.
+ Ther problem is that the package expects a degree, or prints a 
+\begin_inset Quotes eld
+\end_inset
+
+NO Degree?
+\begin_inset Quotes erd
+\end_inset
+
+ warning.
+ I handle this with a 
+\backslash
+authordegrees{
+\backslash
+hfill} (loaded in preamble by lyx layout).
+ This creates a larger space however.
+ Another solution is to use 
+\backslash
+authordegrees{}, will give correct output, but will raise warning.
+\end_layout
+
+\begin_layout Itemize
+I created Lyx style AbstractThesis, that creates the package abstract
+\end_layout
+
+\begin_layout Itemize
+I created another Tex environment and Lyx style AbstractChapter, meant to
+ be abstract for a specific chapter
+\end_layout
+
+\begin_layout Subsection
+To fix:
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+authordegrees{} should probably be removed (see with package's author)
+\end_layout
+
+\begin_layout Itemize
+Package example contains weird characters...
+\end_layout
+
+\begin_layout Itemize
+If use same bibliography in multiple files, creates warning in Lyx
+\end_layout
+
+\begin_layout Subsection
+Source
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Committee
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Albert Einstein
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Plato
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Socrates
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+A University of California Davis Dissertation/Thesis LaTeX Class File
+\end_layout
+
+\begin_layout OfficialMajor
+Official name of Major
+\end_layout
+
+\begin_layout DegreeYear
+2019
+\end_layout
+
+\begin_layout DegreeMonth
+September
+\end_layout
+
+\begin_layout Author
+First Middle Last
+\end_layout
+
+\begin_layout AbstractThesis
+This thesis is about bla bla bla.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Donec posuere justo quis nulla sollicitudin pretium.
+ Praesent blandit, dui vitae iaculis molestie, mauris enim hendrerit sem,
+ aliquam convallis velit sapien sit amet ligula.
+ Aenean ac massa neque.
+ Fusce cursus lacus tellus, nec luctus turpis mattis in.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "ucdavisthesis_example_Chap1.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "ucdavisthesis_example_Chap2.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "ucdavisthesis_example_Chap3.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
