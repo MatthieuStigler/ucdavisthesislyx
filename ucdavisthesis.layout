@@ -168,6 +168,26 @@ Style Committee
   EndArgument
 End
 
+Style Acknowledgments 
+  CopyStyle  OfficialMajor
+  LatexName  acknowledgments
+  InTitle    1
+  LabelString Acknowledgments
+  LabelType  Static
+  LabelSep  ":  "
+  LabelFont
+    Color    brown
+    Series   Bold
+  EndFont
+End
+
+Style Dedication
+  CopyStyle  Acknowledgments
+  LatexName  dedication
+  LabelString Dedication
+End
+
+
 Style AbstractThesis 
   CopyStyle  OfficialMajor
   LatexName  abstract

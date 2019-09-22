@@ -95,7 +95,7 @@
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Subsection
 Lyx installation/usage
@@ -278,6 +278,23 @@ This thesis is about bla bla bla.
  aliquam convallis velit sapien sit amet ligula.
  Aenean ac massa neque.
  Fusce cursus lacus tellus, nec luctus turpis mattis in.
+\end_layout
+
+\begin_layout Acknowledgments
+Acknowledgements to those who helped you get to this point.
+ They should be listed by chapter when appropriate.
+\end_layout
+
+\begin_layout Dedication
+To someone very important 
+\begin_inset Formula $\ldots$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ a nice dedication.
 \end_layout
 
 \begin_layout Standard
