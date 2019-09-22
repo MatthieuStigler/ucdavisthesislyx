@@ -1,5 +1,5 @@
 # ucdavisthesislyx
-This provides a Lyx layout for the ucdavisthesis TeX package. It will enable to run directly the ucdavisthesis package in Lyx. It provides several LyX styles (see left menu) specific to this package, and disables some that are not useful. 
+This provides a Lyx layout for the [ucdavisthesis TeX package](https://ctan.org/pkg/ucdavisthesis?lang=en). It will enable to run directly the ucdavisthesis package in Lyx. It provides several LyX styles (see left menu) specific to this package, and disables some that are not useful. 
 
 ## Installation
 
